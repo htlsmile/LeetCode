@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _001_Two_Sum
+{
+    public class Solution
+    {
+        public int[] TwoSum(int[] nums, int target)
+        {
+            int key;
+            Dictionary<int, int> dict = new Dictionary<int, int>();
+            for (int i = 0; i < nums.Length; i++)
+            {
+                key = target - nums[i];
+                if (dict.ContainsKey(key))
+                {
+                    return new int[] { dict[key], i };
+                }
+                dict.Add(key, i);
+            }
+            throw new ArgumentException();
+        }
+    }
+}
