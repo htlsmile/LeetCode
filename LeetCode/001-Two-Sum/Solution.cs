@@ -19,9 +19,13 @@ namespace _001_Two_Sum
                 {
                     return new int[] { dict[key], i };
                 }
-                dict.Add(key, i);
+                else if (!dict.ContainsKey(nums[i]))
+                {
+                    dict.Add(nums[i], i);
+                }
             }
-            throw new ArgumentException();
+            //throw new ArgumentException();
+            return new int[] { -1, -1 };
         }
     }
 }
