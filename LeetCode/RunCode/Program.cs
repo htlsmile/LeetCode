@@ -13,7 +13,7 @@ namespace RunCode
         static void Main(string[] args)
         {
             int ProblemID = 1;
-            Solution solution = new Solution(ProblemID);
+            SolutionTest solution = new SolutionTest(ProblemID);
             solution.Run();
         }
     }

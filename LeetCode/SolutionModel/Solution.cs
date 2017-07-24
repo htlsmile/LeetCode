@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SolutionModel
 {
-    public class Solution
+    public class SolutionTest
     {
         private int _problemID;
         /// <summary>
@@ -31,20 +31,20 @@ namespace SolutionModel
             }
         }
 
-        /// <summary>
-        /// 方法名
-        /// </summary>
-        public string MainFuncName { get; set; }
+        private dynamic Testcase;
+        private dynamic CaseModel;
+        private object Solution;
+        private MethodInfo methodInfo;
 
-        private Solution() { }
+        private SolutionTest() { }
 
-        public Solution(int id)
+        public SolutionTest(int id)
         {
             ProblemID = id;
             string solutionID = ProblemID.ToString().PadLeft(3, '0');
             string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..\\");
             DirectoryInfo directoryInfo = new DirectoryInfo(path);
-            FileInfo[] fileInfoArray = directoryInfo.GetFiles(solutionID + "*.dll", SearchOption.AllDirectories);
+            FileInfo[] fileInfoArray = directoryInfo.GetFiles($"{solutionID}*.dll", SearchOption.AllDirectories);
             if (fileInfoArray.Length < 1)
             {
                 throw new ArgumentException($"未找到{solutionID}的解决方案！");
@@ -53,18 +53,58 @@ namespace SolutionModel
             Type[] types = assembly.GetTypes();
             foreach (Type type in types)
             {
-                if (type.Name == "Testcase")
+                if (type.Name == nameof(CaseModel))
                 {
-                    dynamic testcase = type.Assembly.CreateInstance(type.FullName);
-                    MainFuncName = testcase.MainFuncName;
+                    CaseModel = Activator.CreateInstance(type);
+                    break;
                 }
-
+            }
+            foreach (Type type in types)
+            {
+                if (type.Name == nameof(Testcase))
+                {
+                    Testcase = Activator.CreateInstance(type);
+                    break;
+                }
+            }
+            foreach (Type type in types)
+            {
+                if (type.Name == nameof(Solution))
+                {
+                    Solution = Activator.CreateInstance(type);
+                    methodInfo = type.GetMethod(Testcase.MainFuncName);
+                    break;
+                }
             }
         }
 
         public bool Run()
         {
-            return true;
+            var testResult = true;
+            if (methodInfo == null)
+            {
+                throw new ArgumentNullException();
+            }
+            foreach (var testcase in Testcase.TestcaseList)
+            {
+                object methodResult = methodInfo.Invoke(Solution, testcase.Parameters);
+                System.Runtime.Serialization.Formatters.Binary.BinaryFormatter formatter = new System.Runtime.Serialization.Formatters.Binary.BinaryFormatter();
+                Stream stream1 = new MemoryStream();
+                formatter.Serialize(stream1, methodResult);
+                Stream stream2 = new MemoryStream();
+                formatter.Serialize(stream2, testcase.Result);
+                if (stream1 == stream2)
+                {
+                    //TODO 如何比较两个是否相等
+                    testResult = true;
+                }
+                else
+                {
+                    testResult = false;
+                    break;
+                }
+            }
+            return testResult;
         }
     }
 }
