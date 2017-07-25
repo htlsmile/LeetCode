@@ -24,7 +24,7 @@ namespace SolutionModel
                 return parameters.ToArray();
             }
         }
-        public abstract object Result { get; set; }
+        public virtual object Result { get; set; }
     }
 
     public abstract class BaseTestcase
