@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SolutionModel;
 using System.Collections;
 
 namespace RunCode
@@ -16,16 +15,24 @@ namespace RunCode
             {
                 Console.WriteLine("问题编号\t测试结果");
                 Console.WriteLine(new string('-', 40));
-                int ProblemID = 1;
-                SolutionTest solution = new SolutionTest(ProblemID);
-                var result = solution.Run();
-                if (result)
+                List<int> ProblemIDList = new List<int>()
                 {
-                    Console.WriteLine($"{ProblemID}\t\t通过");
-                }
-                else
+                    1, 2
+                };
+
+                for (int i = 0; i < ProblemIDList.Count; i++)
                 {
-                    Console.WriteLine($"{ProblemID}\t\t失败");
+                    int ProblemID = ProblemIDList[i];
+                    SolutionTest solution = new SolutionTest(ProblemID);
+                    var result = solution.Run();
+                    if (result)
+                    {
+                        Console.WriteLine($"{ProblemID}\t\t通过");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"{ProblemID}\t\t失败");
+                    }
                 }
             }
             catch (Exception ex)

@@ -1,28 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SolutionModel;
+﻿using System.Collections.Generic;
 
 namespace _001_Two_Sum
 {
-    public class CaseModel : BaseCaseModel
+    public class CaseModel
     {
-        public int[] nums { get; set; }
-        public int target { get; set; }
+        public int[] Result;
+        public int[] nums;
+        public int target;
     }
 
-    public class Testcase : BaseTestcase
+    public class Testcase
     {
         private CaseModel caseModel;
+        private List<CaseModel> testcaseList = new List<CaseModel>();
 
         public Testcase()
         {
-            MainFuncName = nameof(Solution.TwoSum);
-            var testcaseList = new List<CaseModel>();
-            TestcaseList = testcaseList;
-
             #region case
             caseModel = new CaseModel();
             caseModel.Result = new int[] { 0, 1 };
@@ -52,6 +45,31 @@ namespace _001_Two_Sum
             testcaseList.Add(caseModel);
 
             #endregion
+        }
+
+        public bool RunTest()
+        {
+            Solution solution = new Solution();
+            foreach (var testcase in testcaseList)
+            {
+                var expect = testcase.Result;
+                var actual = solution.TwoSum(testcase.nums, testcase.target);
+                if (expect.Length != actual.Length)
+                {
+                    return false;
+                }
+                else
+                {
+                    for (int i = 0; i < expect.Length; i++)
+                    {
+                        if (expect[i] != actual[i])
+                        {
+                            return false;
+                        }
+                    }
+                }
+            }
+            return true;
         }
     }
 }

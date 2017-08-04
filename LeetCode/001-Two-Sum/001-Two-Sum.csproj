@@ -44,12 +44,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Testcase.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SolutionModel\_SolutionModel.csproj">
-      <Project>{2d25c22d-977a-4a35-adf1-f6a9a7573733}</Project>
-      <Name>_SolutionModel</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
