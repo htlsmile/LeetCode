@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace _001_Two_Sum
+namespace Two_Sum
 {
     public class Solution
     {
