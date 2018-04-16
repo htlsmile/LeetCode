@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Two_Sum", "Two_Sum\Two_Sum.csproj", "{11DD7FBC-FBAB-4099-9A73-FEFBC21ADF43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Two_Sum", "Two_Sum\Two_Sum.csproj", "{11DD7FBC-FBAB-4099-9A73-FEFBC21ADF43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add_Two_Numbers", "Add_Two_Numbers\Add_Two_Numbers.csproj", "{47956FAA-0B0F-4CDB-ACBF-60860709BCC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Add_Two_Numbers", "Add_Two_Numbers\Add_Two_Numbers.csproj", "{47956FAA-0B0F-4CDB-ACBF-60860709BCC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remove_Duplicates_From_Sorted_Array", "Remove_Duplicates_From_Sorted_Array\Remove_Duplicates_From_Sorted_Array.csproj", "{D52CD474-9019-44A2-9F4C-1027E450DF3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Remove_Duplicates_From_Sorted_Array", "Remove_Duplicates_From_Sorted_Array\Remove_Duplicates_From_Sorted_Array.csproj", "{D52CD474-9019-44A2-9F4C-1027E450DF3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Best_Time_To_Buy_And_Sell_Stock_ii", "Best_Time_To_Buy_And_Sell_Stock_ii\Best_Time_To_Buy_And_Sell_Stock_ii.csproj", "{4D5F55C5-2461-4519-A32B-EA7A29489A7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{D52CD474-9019-44A2-9F4C-1027E450DF3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D52CD474-9019-44A2-9F4C-1027E450DF3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D52CD474-9019-44A2-9F4C-1027E450DF3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D5F55C5-2461-4519-A32B-EA7A29489A7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D5F55C5-2461-4519-A32B-EA7A29489A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D5F55C5-2461-4519-A32B-EA7A29489A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D5F55C5-2461-4519-A32B-EA7A29489A7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
