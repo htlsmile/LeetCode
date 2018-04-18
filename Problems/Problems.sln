@@ -11,9 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Remove_Duplicates_From_Sort
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Best_Time_To_Buy_And_Sell_Stock_ii", "Best_Time_To_Buy_And_Sell_Stock_ii\Best_Time_To_Buy_And_Sell_Stock_ii.csproj", "{4D5F55C5-2461-4519-A32B-EA7A29489A7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotate_Array", "Rotate_Array\Rotate_Array.csproj", "{E84CB45E-7280-4FB6-9B17-4C8C84E44337}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rotate_Array", "Rotate_Array\Rotate_Array.csproj", "{E84CB45E-7280-4FB6-9B17-4C8C84E44337}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contains_Duplicate", "Contains_Duplicate\Contains_Duplicate.csproj", "{3E3BC7FB-15FB-40C1-A3FE-F4150B9CF6CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contains_Duplicate", "Contains_Duplicate\Contains_Duplicate.csproj", "{3E3BC7FB-15FB-40C1-A3FE-F4150B9CF6CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Single_Number", "Single_Number\Single_Number.csproj", "{F451D867-6D4C-438C-8B1D-A49AA2785ADD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intersection_Of_Two_Arrays_ii", "Intersection_Of_Two_Arrays_ii\Intersection_Of_Two_Arrays_ii.csproj", "{0F8ED8CB-764D-447C-8C59-3551C62AB257}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{3E3BC7FB-15FB-40C1-A3FE-F4150B9CF6CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E3BC7FB-15FB-40C1-A3FE-F4150B9CF6CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E3BC7FB-15FB-40C1-A3FE-F4150B9CF6CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F451D867-6D4C-438C-8B1D-A49AA2785ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F451D867-6D4C-438C-8B1D-A49AA2785ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F451D867-6D4C-438C-8B1D-A49AA2785ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F451D867-6D4C-438C-8B1D-A49AA2785ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F8ED8CB-764D-447C-8C59-3551C62AB257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F8ED8CB-764D-447C-8C59-3551C62AB257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F8ED8CB-764D-447C-8C59-3551C62AB257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F8ED8CB-764D-447C-8C59-3551C62AB257}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
