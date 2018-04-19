@@ -5,17 +5,19 @@ namespace Add_Two_Numbers
 {
     class Program
     {
-        static Solution solution = new Solution();
-
         static void Main(string[] args)
         {
             var l1 = GetList(2, 4, 3);
-            Console.WriteLine(ShowList(l1));
             var l2 = GetList(5, 6, 4);
-            Console.WriteLine(ShowList(l2));
-            var l3 = solution.AddTwoNumbers(l1, l2);
-            Console.WriteLine(ShowList(l3));
+            Test(l1, l2);
             Console.ReadKey(true);
+        }
+
+        static void Test(ListNode l1, ListNode l2)
+        {
+            var solution = new Solution();
+            var result = solution.AddTwoNumbers(l1, l2);
+            ShowList(result);
         }
 
         static ListNode GetList(params int[] nums)
@@ -34,11 +36,11 @@ namespace Add_Two_Numbers
             return list;
         }
 
-        static string ShowList(ListNode list)
+        static void ShowList(ListNode list)
         {
             if (list == null)
             {
-                return string.Empty;
+                Console.WriteLine();
             }
             else
             {
@@ -51,7 +53,7 @@ namespace Add_Two_Numbers
                     sb.Append($" -> {node.val}");
                     node = node.next;
                 }
-                return sb.ToString();
+                Console.WriteLine(sb.ToString());
             }
         }
     }

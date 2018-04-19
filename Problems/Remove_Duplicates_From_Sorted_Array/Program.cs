@@ -5,21 +5,20 @@ namespace Remove_Duplicates_From_Sorted_Array
 {
     class Program
     {
-        static Solution solution = new Solution();
-
         static void Main(string[] args)
         {
             int[] nums1 = { 1, 1, 2 };
-            Console.WriteLine(ResultString(nums1));
+            Test(nums1);
             int[] nums2 = { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
-            Console.WriteLine(ResultString(nums2));
+            Test(nums2);
             int[] nums3 = { 0, 1, 2, 1, 0, 2 };
-            Console.WriteLine(ResultString(nums3));
+            Test(nums3);
             Console.ReadKey(true);
         }
 
-        static string ResultString(int[] nums)
+        static void Test(int[] nums)
         {
+            var solution = new Solution();
             StringBuilder sb = new StringBuilder();
             var length = solution.RemoveDuplicates(nums);
             if (length > 0)
@@ -30,7 +29,7 @@ namespace Remove_Duplicates_From_Sorted_Array
                     sb.Append($", {nums[i]}");
                 }
             }
-            return sb.ToString();
+            Console.WriteLine(sb.ToString());
         }
     }
 }

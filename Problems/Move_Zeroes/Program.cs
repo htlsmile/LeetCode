@@ -1,21 +1,20 @@
 ﻿using System;
 
-namespace Rotate_Array
+namespace Move_Zeroes
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int[] nums = { 1, 2, 3, 4, 5, 6, 7 };
-            int k = 3;
-            Test(nums, k);
+            int[] nums1 = { 0, 1, 0, 3, 12 };
+            Test(nums1);
             Console.ReadKey(true);
         }
 
-        static void Test(int[] nums, int k)
+        static void Test(int[] nums)
         {
             var solution = new Solution();
-            solution.Rotate(nums, k);
+            solution.MoveZeroes(nums);
             for (int i = 0; i < nums.Length; i++)
             {
                 Console.Write($"{nums[i]}\t");
