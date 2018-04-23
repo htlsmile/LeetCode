@@ -39,23 +39,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Valid_Parentheses", "Valid_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Missing_Number", "Missing_Number\Missing_Number.csproj", "{309C950B-63EF-4A50-9EB4-39EBE87CA89E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse_String", "Reverse_String\Reverse_String.csproj", "{F9FC0DBD-82F5-4C08-B442-505A7DE8EBE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reverse_String", "Reverse_String\Reverse_String.csproj", "{F9FC0DBD-82F5-4C08-B442-505A7DE8EBE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse_Integer", "Reverse_Integer\Reverse_Integer.csproj", "{43B350B6-1ABB-4970-8CF9-29D0C44610FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reverse_Integer", "Reverse_Integer\Reverse_Integer.csproj", "{43B350B6-1ABB-4970-8CF9-29D0C44610FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "First_Unique_Character_In_A_String", "First_Unique_Character_In_A_String\First_Unique_Character_In_A_String.csproj", "{70311DD0-859E-45D3-A733-A64E9D295C5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First_Unique_Character_In_A_String", "First_Unique_Character_In_A_String\First_Unique_Character_In_A_String.csproj", "{70311DD0-859E-45D3-A733-A64E9D295C5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid_Anagram", "Valid_Anagram\Valid_Anagram.csproj", "{831461A4-2BF1-4125-9D73-554B2D5AB59F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Valid_Anagram", "Valid_Anagram\Valid_Anagram.csproj", "{831461A4-2BF1-4125-9D73-554B2D5AB59F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid_Palindrome", "Valid_Palindrome\Valid_Palindrome.csproj", "{791F2F7B-4B54-44C5-9B87-6040E2D50A04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Valid_Palindrome", "Valid_Palindrome\Valid_Palindrome.csproj", "{791F2F7B-4B54-44C5-9B87-6040E2D50A04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String_To_Integer_atoi", "String_To_Integer_atoi\String_To_Integer_atoi.csproj", "{6E9B35FC-D657-41DD-A878-0F0AB1063E64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "String_To_Integer_atoi", "String_To_Integer_atoi\String_To_Integer_atoi.csproj", "{6E9B35FC-D657-41DD-A878-0F0AB1063E64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implement_Strstr", "Implement_Strstr\Implement_Strstr.csproj", "{4B3CF39D-4D34-4380-A05C-6C7EE46E9CB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Implement_Strstr", "Implement_Strstr\Implement_Strstr.csproj", "{4B3CF39D-4D34-4380-A05C-6C7EE46E9CB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count_And_Say", "Count_And_Say\Count_And_Say.csproj", "{D329EC89-B16F-4A05-BDBD-8ED9EA04164D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Count_And_Say", "Count_And_Say\Count_And_Say.csproj", "{D329EC89-B16F-4A05-BDBD-8ED9EA04164D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longest_Common_Prefix", "Longest_Common_Prefix\Longest_Common_Prefix.csproj", "{B4681BF4-1297-4D9A-A279-8BFFCCED12E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Longest_Common_Prefix", "Longest_Common_Prefix\Longest_Common_Prefix.csproj", "{B4681BF4-1297-4D9A-A279-8BFFCCED12E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delete_Node_In_A_Linked_List", "Delete_Node_In_A_Linked_List\Delete_Node_In_A_Linked_List.csproj", "{E0DC3B21-D814-44B1-A5D0-9A64099B915B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remove_Nth_Node_From_End_Of_List", "Remove_Nth_Node_From_End_Of_List\Remove_Nth_Node_From_End_Of_List.csproj", "{4C39E6CD-1B1C-4BFE-994A-6398B014DE1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse_Linked_List", "Reverse_Linked_List\Reverse_Linked_List.csproj", "{841F30EE-0957-49A6-8740-45C1BBC73E10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +177,18 @@ Global
 		{B4681BF4-1297-4D9A-A279-8BFFCCED12E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4681BF4-1297-4D9A-A279-8BFFCCED12E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4681BF4-1297-4D9A-A279-8BFFCCED12E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0DC3B21-D814-44B1-A5D0-9A64099B915B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0DC3B21-D814-44B1-A5D0-9A64099B915B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0DC3B21-D814-44B1-A5D0-9A64099B915B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0DC3B21-D814-44B1-A5D0-9A64099B915B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C39E6CD-1B1C-4BFE-994A-6398B014DE1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C39E6CD-1B1C-4BFE-994A-6398B014DE1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C39E6CD-1B1C-4BFE-994A-6398B014DE1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C39E6CD-1B1C-4BFE-994A-6398B014DE1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{841F30EE-0957-49A6-8740-45C1BBC73E10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{841F30EE-0957-49A6-8740-45C1BBC73E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{841F30EE-0957-49A6-8740-45C1BBC73E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{841F30EE-0957-49A6-8740-45C1BBC73E10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
