@@ -4,8 +4,6 @@ namespace Two_Sum
 {
     class Program
     {
-        static Solution solution = new Solution();
-
         static void Main(string[] args)
         {
             int[] nums = { 2, 7, 11, 15 };
