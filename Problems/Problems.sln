@@ -103,6 +103,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shuffle_An_Array", "Shuffle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Min_Stack", "Min_Stack\Min_Stack.csproj", "{72B8213F-3C2F-40C9-BA3F-A5A8885230D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_3Sum", "_3Sum\_3Sum.csproj", "{A41A4A8F-C90E-4D4E-A0EE-C750A7B4A806}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -309,6 +311,10 @@ Global
 		{72B8213F-3C2F-40C9-BA3F-A5A8885230D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72B8213F-3C2F-40C9-BA3F-A5A8885230D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72B8213F-3C2F-40C9-BA3F-A5A8885230D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A41A4A8F-C90E-4D4E-A0EE-C750A7B4A806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A41A4A8F-C90E-4D4E-A0EE-C750A7B4A806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A41A4A8F-C90E-4D4E-A0EE-C750A7B4A806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A41A4A8F-C90E-4D4E-A0EE-C750A7B4A806}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
