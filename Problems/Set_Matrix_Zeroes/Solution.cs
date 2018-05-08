@@ -6,6 +6,10 @@ namespace Set_Matrix_Zeroes
 {
     public class Solution
     {
+        /// <summary>
+        /// Space:O(1)
+        /// </summary>
+        /// <param name="matrix"></param>
         public void SetZeroes(int[,] matrix)
         {
             bool f = false;
@@ -39,6 +43,10 @@ namespace Set_Matrix_Zeroes
             }
         }
 
+        /// <summary>
+        /// Space:O(m+n)
+        /// </summary>
+        /// <param name="matrix"></param>
         public void SetZeroes_1(int[,] matrix)
         {
             var rows = new List<int>();
@@ -70,9 +78,12 @@ namespace Set_Matrix_Zeroes
                     }
                 }
             }
-
         }
 
+        /// <summary>
+        /// Space:O(mn)
+        /// </summary>
+        /// <param name="matrix"></param>
         public void SetZeroes_2(int[,] matrix)
         {
             var matrix2 = matrix.Clone() as int[,];
