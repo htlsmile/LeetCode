@@ -109,6 +109,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Set_Matrix_Zeroes", "Set_Ma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Group_Anagrams", "Group_Anagrams\Group_Anagrams.csproj", "{B4B94350-EFC2-484D-830F-2D76AA575031}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longest_Substring_Without_Repeating_Characters", "Longest_Substring_Without_Repeating_Characters\Longest_Substring_Without_Repeating_Characters.csproj", "{E2E4F51B-D486-4A66-8CA7-BA34E3D2CC94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -327,6 +329,10 @@ Global
 		{B4B94350-EFC2-484D-830F-2D76AA575031}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4B94350-EFC2-484D-830F-2D76AA575031}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4B94350-EFC2-484D-830F-2D76AA575031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2E4F51B-D486-4A66-8CA7-BA34E3D2CC94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E4F51B-D486-4A66-8CA7-BA34E3D2CC94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2E4F51B-D486-4A66-8CA7-BA34E3D2CC94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E4F51B-D486-4A66-8CA7-BA34E3D2CC94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
