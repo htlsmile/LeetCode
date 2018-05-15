@@ -119,6 +119,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odd_Even_Linked_List", "Odd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intersection_Of_Two_Linked_Lists", "Intersection_Of_Two_Linked_Lists\Intersection_Of_Two_Linked_Lists.csproj", "{070E64DE-E476-4459-8428-7DCA50C35E13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary_Tree_Inorder_Traversal", "Binary_Tree_Inorder_Traversal\Binary_Tree_Inorder_Traversal.csproj", "{C19D46AC-A46A-4743-86E3-D943590392E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary_Tree_Zigzag_Level_Order_Traversal", "Binary_Tree_Zigzag_Level_Order_Traversal\Binary_Tree_Zigzag_Level_Order_Traversal.csproj", "{FC3E9EC4-40DE-4C40-98FE-F0AE244E476A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -357,6 +361,14 @@ Global
 		{070E64DE-E476-4459-8428-7DCA50C35E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{070E64DE-E476-4459-8428-7DCA50C35E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{070E64DE-E476-4459-8428-7DCA50C35E13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C19D46AC-A46A-4743-86E3-D943590392E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C19D46AC-A46A-4743-86E3-D943590392E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C19D46AC-A46A-4743-86E3-D943590392E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C19D46AC-A46A-4743-86E3-D943590392E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3E9EC4-40DE-4C40-98FE-F0AE244E476A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3E9EC4-40DE-4C40-98FE-F0AE244E476A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3E9EC4-40DE-4C40-98FE-F0AE244E476A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3E9EC4-40DE-4C40-98FE-F0AE244E476A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
