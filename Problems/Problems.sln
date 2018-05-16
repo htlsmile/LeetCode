@@ -123,6 +123,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary_Tree_Inorder_Travers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary_Tree_Zigzag_Level_Order_Traversal", "Binary_Tree_Zigzag_Level_Order_Traversal\Binary_Tree_Zigzag_Level_Order_Traversal.csproj", "{FC3E9EC4-40DE-4C40-98FE-F0AE244E476A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Construct_Binary_Tree_From_Preorder_And_Inorder_Traversal", "Construct_Binary_Tree_From_Preorder_And_Inorder_Traversal\Construct_Binary_Tree_From_Preorder_And_Inorder_Traversal.csproj", "{8F8FF2C0-24AF-4C19-8E69-6872A4B1997B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{19D8FC78-BB83-43E1-BBD7-60EAB80ABFCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -369,6 +373,14 @@ Global
 		{FC3E9EC4-40DE-4C40-98FE-F0AE244E476A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC3E9EC4-40DE-4C40-98FE-F0AE244E476A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC3E9EC4-40DE-4C40-98FE-F0AE244E476A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F8FF2C0-24AF-4C19-8E69-6872A4B1997B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F8FF2C0-24AF-4C19-8E69-6872A4B1997B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F8FF2C0-24AF-4C19-8E69-6872A4B1997B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F8FF2C0-24AF-4C19-8E69-6872A4B1997B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19D8FC78-BB83-43E1-BBD7-60EAB80ABFCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19D8FC78-BB83-43E1-BBD7-60EAB80ABFCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19D8FC78-BB83-43E1-BBD7-60EAB80ABFCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19D8FC78-BB83-43E1-BBD7-60EAB80ABFCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
