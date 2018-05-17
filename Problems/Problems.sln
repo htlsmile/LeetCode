@@ -125,7 +125,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary_Tree_Zigzag_Level_Or
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Construct_Binary_Tree_From_Preorder_And_Inorder_Traversal", "Construct_Binary_Tree_From_Preorder_And_Inorder_Traversal\Construct_Binary_Tree_From_Preorder_And_Inorder_Traversal.csproj", "{8F8FF2C0-24AF-4C19-8E69-6872A4B1997B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{19D8FC78-BB83-43E1-BBD7-60EAB80ABFCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{19D8FC78-BB83-43E1-BBD7-60EAB80ABFCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Populating_Next_Right_Pointers_In_Each_Node", "Populating_Next_Right_Pointers_In_Each_Node\Populating_Next_Right_Pointers_In_Each_Node.csproj", "{45457B88-F82F-49C3-B814-9F2F996A6AF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -381,6 +383,10 @@ Global
 		{19D8FC78-BB83-43E1-BBD7-60EAB80ABFCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19D8FC78-BB83-43E1-BBD7-60EAB80ABFCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19D8FC78-BB83-43E1-BBD7-60EAB80ABFCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45457B88-F82F-49C3-B814-9F2F996A6AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45457B88-F82F-49C3-B814-9F2F996A6AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45457B88-F82F-49C3-B814-9F2F996A6AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45457B88-F82F-49C3-B814-9F2F996A6AF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
