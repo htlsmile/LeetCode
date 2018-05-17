@@ -32,6 +32,44 @@ namespace Common
             };
         }
 
+        public static TreeLinkNode GetTree()
+        {
+            return new TreeLinkNode(1)
+            {
+                left = new TreeLinkNode(2)
+                {
+                    left = new TreeLinkNode(4),
+                    right = new TreeLinkNode(5)
+                },
+                right = new TreeLinkNode(3)
+                {
+                    right = new TreeLinkNode(7)
+                }
+            };
+        }
+
+        public static TreeLinkNode GetTree2()
+        {
+            return new TreeLinkNode(1)
+            {
+                left = new TreeLinkNode(2)
+                {
+                    left = new TreeLinkNode(4)
+                    {
+                        left = new TreeLinkNode(7)
+                    },
+                    right = new TreeLinkNode(5)
+                },
+                right = new TreeLinkNode(3)
+                {
+                    right = new TreeLinkNode(6)
+                    {
+                        right = new TreeLinkNode(8)
+                    }
+                }
+            };
+        }
+
         public static void ShowTree(TreeLinkNode node, Action<TreeLinkNode> action = null)
         {
             if (node == null)
