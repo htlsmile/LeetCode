@@ -23,30 +23,18 @@ namespace Number_Of_Islands
             return count;
         }
 
-        private void Expand(ref char[,] grid, int x, int y, int direction = 0)
+        private void Expand(ref char[,] grid, int x, int y)
         {
-            if (grid[x, y] != '1')
+            if (x < 0 || x >= grid.GetLength(0) || y < 0 || y >= grid.GetLength(1) || grid[x, y] != '1')
             {
                 return;
             }
             grid[x, y] = '0';
             //ShowGrid(grid);
-            if (x > 0 && direction != 3)
-            {
-                Expand(ref grid, x - 1, y, 1);
-            }
-            if (x < grid.GetLength(0) - 1 && direction != 1)
-            {
-                Expand(ref grid, x + 1, y, 3);
-            }
-            if (y > 0 && direction != 4)
-            {
-                Expand(ref grid, x, y - 1, 2);
-            }
-            if (y < grid.GetLength(1) - 1 && direction != 2)
-            {
-                Expand(ref grid, x, y + 1, 4);
-            }
+            Expand(ref grid, x - 1, y);
+            Expand(ref grid, x + 1, y);
+            Expand(ref grid, x, y - 1);
+            Expand(ref grid, x, y + 1);
         }
 
         private void ShowGrid(char[,] grid)
