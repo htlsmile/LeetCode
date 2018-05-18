@@ -72,5 +72,29 @@ namespace Common
             };
             return tree;
         }
+
+        public static TreeNode GetTestSearchTree()
+        {
+            var tree = new TreeNode(12)
+            {
+                left = new TreeNode(5)
+                {
+                    left = new TreeNode(2),
+                    right = new TreeNode(9)
+                },
+                right = new TreeNode(18)
+                {
+                    left = new TreeNode(15)
+                    {
+                        right = new TreeNode(17)
+                        {
+                            left = new TreeNode(16)
+                        }
+                    },
+                    right = new TreeNode(19)
+                }
+            };
+            return tree;
+        }
     }
 }
