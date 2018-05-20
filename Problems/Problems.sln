@@ -145,6 +145,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subsets", "Subsets\Subsets.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word_Search", "Word_Search\Word_Search.csproj", "{401A0759-7318-4D99-8732-ACC3B709176D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort_Colors", "Sort_Colors\Sort_Colors.csproj", "{BF9DB393-A54B-44F2-98FD-286D53AE0524}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -435,6 +437,10 @@ Global
 		{401A0759-7318-4D99-8732-ACC3B709176D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{401A0759-7318-4D99-8732-ACC3B709176D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{401A0759-7318-4D99-8732-ACC3B709176D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF9DB393-A54B-44F2-98FD-286D53AE0524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF9DB393-A54B-44F2-98FD-286D53AE0524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF9DB393-A54B-44F2-98FD-286D53AE0524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9DB393-A54B-44F2-98FD-286D53AE0524}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
