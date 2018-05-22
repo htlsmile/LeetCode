@@ -157,6 +157,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search_For_A_Range", "Searc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merge_Intervals", "Merge_Intervals\Merge_Intervals.csproj", "{18A41C5E-7EE4-46AB-A2D0-EC232E881FD3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search_In_Rotated_Sorted_Array", "Search_In_Rotated_Sorted_Array\Search_In_Rotated_Sorted_Array.csproj", "{24B8B8D3-EA59-49E9-B749-B9C460D5A1C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search_A_2d_Matrix_ii", "Search_A_2d_Matrix_ii\Search_A_2d_Matrix_ii.csproj", "{C5712E91-8BFD-4D24-A21A-F6C739B5E859}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -471,6 +475,14 @@ Global
 		{18A41C5E-7EE4-46AB-A2D0-EC232E881FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18A41C5E-7EE4-46AB-A2D0-EC232E881FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18A41C5E-7EE4-46AB-A2D0-EC232E881FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B8B8D3-EA59-49E9-B749-B9C460D5A1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B8B8D3-EA59-49E9-B749-B9C460D5A1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B8B8D3-EA59-49E9-B749-B9C460D5A1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B8B8D3-EA59-49E9-B749-B9C460D5A1C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5712E91-8BFD-4D24-A21A-F6C739B5E859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5712E91-8BFD-4D24-A21A-F6C739B5E859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5712E91-8BFD-4D24-A21A-F6C739B5E859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5712E91-8BFD-4D24-A21A-F6C739B5E859}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
