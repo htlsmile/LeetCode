@@ -191,6 +191,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divide_Two_Integers", "Divi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fraction_To_Recurring_Decimal", "Fraction_To_Recurring_Decimal\Fraction_To_Recurring_Decimal.csproj", "{4A2A5D6A-6A2E-48B7-B755-3F2645B3ACED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialize_And_Deserialize_Binary_Tree", "Serialize_And_Deserialize_Binary_Tree\Serialize_And_Deserialize_Binary_Tree.csproj", "{916CE3A5-312A-424E-8E50-A0549DCD23FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -573,6 +575,10 @@ Global
 		{4A2A5D6A-6A2E-48B7-B755-3F2645B3ACED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A2A5D6A-6A2E-48B7-B755-3F2645B3ACED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A2A5D6A-6A2E-48B7-B755-3F2645B3ACED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{916CE3A5-312A-424E-8E50-A0549DCD23FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{916CE3A5-312A-424E-8E50-A0549DCD23FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{916CE3A5-312A-424E-8E50-A0549DCD23FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{916CE3A5-312A-424E-8E50-A0549DCD23FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
