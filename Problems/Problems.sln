@@ -193,6 +193,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fraction_To_Recurring_Decim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialize_And_Deserialize_Binary_Tree", "Serialize_And_Deserialize_Binary_Tree\Serialize_And_Deserialize_Binary_Tree.csproj", "{916CE3A5-312A-424E-8E50-A0549DCD23FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insert_Delete_GetRandom_O1", "Insert_Delete_Getrandom_O1\Insert_Delete_GetRandom_O1.csproj", "{622221FD-6EBC-433B-A551-A5D5304E5AAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -579,6 +581,10 @@ Global
 		{916CE3A5-312A-424E-8E50-A0549DCD23FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{916CE3A5-312A-424E-8E50-A0549DCD23FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{916CE3A5-312A-424E-8E50-A0549DCD23FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{622221FD-6EBC-433B-A551-A5D5304E5AAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{622221FD-6EBC-433B-A551-A5D5304E5AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{622221FD-6EBC-433B-A551-A5D5304E5AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{622221FD-6EBC-433B-A551-A5D5304E5AAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
