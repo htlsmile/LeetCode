@@ -201,6 +201,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spiral_Matrix", "Spiral_Mat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_4Sum_ii", "4Sum_ii\_4Sum_ii.csproj", "{B5A09C8E-4D3A-4F41-97B9-BEDF234CAB63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Container_With_Most_Water", "Container_With_Most_Water\Container_With_Most_Water.csproj", "{330BB82F-6356-4CB7-A142-3A962EAD7B5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game_Of_Life", "Game_Of_Life\Game_Of_Life.csproj", "{0742517B-BE3C-4942-A9F6-A917A32CACE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -603,6 +607,14 @@ Global
 		{B5A09C8E-4D3A-4F41-97B9-BEDF234CAB63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5A09C8E-4D3A-4F41-97B9-BEDF234CAB63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5A09C8E-4D3A-4F41-97B9-BEDF234CAB63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{330BB82F-6356-4CB7-A142-3A962EAD7B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{330BB82F-6356-4CB7-A142-3A962EAD7B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{330BB82F-6356-4CB7-A142-3A962EAD7B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{330BB82F-6356-4CB7-A142-3A962EAD7B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0742517B-BE3C-4942-A9F6-A917A32CACE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0742517B-BE3C-4942-A9F6-A917A32CACE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0742517B-BE3C-4942-A9F6-A917A32CACE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0742517B-BE3C-4942-A9F6-A917A32CACE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
