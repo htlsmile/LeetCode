@@ -205,6 +205,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Container_With_Most_Water",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game_Of_Life", "Game_Of_Life\Game_Of_Life.csproj", "{0742517B-BE3C-4942-A9F6-A917A32CACE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "First_Missing_Positive", "First_Missing_Positive\First_Missing_Positive.csproj", "{129A2957-6B7C-4484-B5B2-1D05E1A3ACC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -615,6 +617,10 @@ Global
 		{0742517B-BE3C-4942-A9F6-A917A32CACE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0742517B-BE3C-4942-A9F6-A917A32CACE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0742517B-BE3C-4942-A9F6-A917A32CACE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{129A2957-6B7C-4484-B5B2-1D05E1A3ACC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129A2957-6B7C-4484-B5B2-1D05E1A3ACC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129A2957-6B7C-4484-B5B2-1D05E1A3ACC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129A2957-6B7C-4484-B5B2-1D05E1A3ACC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
