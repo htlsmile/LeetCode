@@ -207,6 +207,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game_Of_Life", "Game_Of_Lif
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "First_Missing_Positive", "First_Missing_Positive\First_Missing_Positive.csproj", "{129A2957-6B7C-4484-B5B2-1D05E1A3ACC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longest_Consecutive_Sequence", "Longest_Consecutive_Sequence\Longest_Consecutive_Sequence.csproj", "{A764ADC2-6504-4F92-8954-9C0649E4453E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find_The_Duplicate_Number", "Find_The_Duplicate_Number\Find_The_Duplicate_Number.csproj", "{C5ACE61A-CE12-444C-B210-9C21FBFE5221}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -621,6 +625,14 @@ Global
 		{129A2957-6B7C-4484-B5B2-1D05E1A3ACC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{129A2957-6B7C-4484-B5B2-1D05E1A3ACC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{129A2957-6B7C-4484-B5B2-1D05E1A3ACC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A764ADC2-6504-4F92-8954-9C0649E4453E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A764ADC2-6504-4F92-8954-9C0649E4453E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A764ADC2-6504-4F92-8954-9C0649E4453E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A764ADC2-6504-4F92-8954-9C0649E4453E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5ACE61A-CE12-444C-B210-9C21FBFE5221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5ACE61A-CE12-444C-B210-9C21FBFE5221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5ACE61A-CE12-444C-B210-9C21FBFE5221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5ACE61A-CE12-444C-B210-9C21FBFE5221}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
