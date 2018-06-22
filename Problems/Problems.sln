@@ -217,6 +217,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_4Sum_ii", "_4Sum_ii\_4Sum_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Populating_Next_Right_Pointers_In_Each_Node_ii", "Populating_Next_Right_Pointers_In_Each_Node_ii\Populating_Next_Right_Pointers_In_Each_Node_ii.csproj", "{64AB0B3E-5314-4CE3-AD7C-AAA3FB07146D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merge_K_Sorted_Lists", "Merge_K_Sorted_Lists\Merge_K_Sorted_Lists.csproj", "{9B44AFE0-640B-4DCD-9EE9-B7265655E4E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort_List", "Sort_List\Sort_List.csproj", "{90168CE7-3F16-40E5-A7B0-A3E1C0ADD00F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Copy_List_With_Random_Pointer", "Copy_List_With_Random_Pointer\Copy_List_With_Random_Pointer.csproj", "{DE322168-D1C6-44EC-83F1-D48F55EF5281}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -651,6 +657,18 @@ Global
 		{64AB0B3E-5314-4CE3-AD7C-AAA3FB07146D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64AB0B3E-5314-4CE3-AD7C-AAA3FB07146D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64AB0B3E-5314-4CE3-AD7C-AAA3FB07146D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B44AFE0-640B-4DCD-9EE9-B7265655E4E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B44AFE0-640B-4DCD-9EE9-B7265655E4E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B44AFE0-640B-4DCD-9EE9-B7265655E4E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B44AFE0-640B-4DCD-9EE9-B7265655E4E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90168CE7-3F16-40E5-A7B0-A3E1C0ADD00F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90168CE7-3F16-40E5-A7B0-A3E1C0ADD00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90168CE7-3F16-40E5-A7B0-A3E1C0ADD00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90168CE7-3F16-40E5-A7B0-A3E1C0ADD00F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE322168-D1C6-44EC-83F1-D48F55EF5281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE322168-D1C6-44EC-83F1-D48F55EF5281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE322168-D1C6-44EC-83F1-D48F55EF5281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE322168-D1C6-44EC-83F1-D48F55EF5281}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
